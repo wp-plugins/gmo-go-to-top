@@ -1,0 +1,10 @@
+div.gotop{
+	background-image: url(images/up.png);
+	background-repeat: no-repeat;
+	height:31px;
+	width:31px;
+	margin: 10px;
+	position:fixed;
+	right:30px;
+	bottom:30px;
+}
