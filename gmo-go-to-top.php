@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
 Plugin Name: GMO Go to Top
 Plugin URI: http://wpshop.com
