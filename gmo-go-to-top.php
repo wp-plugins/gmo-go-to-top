@@ -3,7 +3,7 @@
 Plugin Name: GMO Go to Top
 Plugin URI: http://wpshop.com
 Description: GMO Go to Top is simple plugin and it will add a simple button which allows users to easily scroll back to the top of the page.
-Version: 1.0
+Version: 1.1
 Author: WP Shop byGMO
 Author URI: http://wpshop.com
 */
