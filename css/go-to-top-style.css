@@ -1,0 +1,56 @@
+#gmoplugLeft table tr td:nth-of-type(1){
+	width:230px;
+	font-size:20px;
+}
+#gmoplugLeft table tr td{
+	padding-bottom:50px;
+	vertical-align: top;
+}
+
+#gmoplugLeft table tr td .image_no_selcet{
+	position: absolute;
+	width: 300px;
+	background-color: rgb(0, 0, 0);
+	height: 31px;
+	opacity: 0.5;
+}
+ul.icon_font li{
+	float: left;
+	padding: 10px;
+	font-size: 30px;
+	background-color: rgb(240, 240, 240);
+	margin: 0 5px;
+	cursor: pointer;
+	border: 2px solid rgb(240, 240, 240);
+	margin: 5px;
+}
+ul.icon_font li.select_icon{
+	border: 2px solid rgb(0, 0, 0);
+}
+ul.type_select{
+	position:relative;
+	top:-20px;
+}
+ul.type_select li{
+	float: left;
+	padding: 10px;
+	font-size: 15px;
+	background-color: rgb(240, 240, 240);
+	margin: 0 5px;
+	cursor: pointer;
+	border: 2px solid rgb(240, 240, 240);
+}
+ul.type_select li.select_icon{
+	border: 2px solid rgb(0, 0, 0);
+}
+ul.type_select li input[type="radio"]{
+	float:left;
+	position:relative;
+	top:5px;
+}
+ul.type_select li div{
+	float:left;
+}
+#icon_table,#images_table{
+	display:none;
+}

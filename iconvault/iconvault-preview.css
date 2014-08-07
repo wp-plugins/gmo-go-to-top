@@ -1,0 +1,48 @@
+/*
+ * Created with iconvau.lt
+ */
+
+@font-face {
+  font-family: "iconvault";
+  src: url("iconvault_9a1c88afa615debc7fb4cdcba96a0dda.eot");
+  src: url("iconvault_9a1c88afa615debc7fb4cdcba96a0dda.eot?#iefix") format("embedded-opentype"),
+       url("iconvault_9a1c88afa615debc7fb4cdcba96a0dda.woff") format("woff"),
+       url("iconvault_9a1c88afa615debc7fb4cdcba96a0dda.ttf") format("truetype"),
+       url("iconvault_9a1c88afa615debc7fb4cdcba96a0dda.svg#iconvault") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gmo-icon-arrow-up2:before,
+.gmo-icon-smiley:before,
+.gmo-icon-airplane:before,
+.gmo-icon-arrow-up:before,
+.gmo-icon-sprites:before,
+.gmo-icon-rocket:before,
+.gmo-icon-thumbs-up:before,
+.gmo-icon-pacman:before,
+.gmo-icon-eject:before,
+.gmo-icon-arrow-up3:before,
+.gmo-icon-point-up:before {
+  font-family: "iconvault";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.gmo-icon-arrow-up2:before { content: "\f100"; }
+.gmo-icon-smiley:before { content: "\f101"; }
+.gmo-icon-airplane:before { content: "\f102"; }
+.gmo-icon-arrow-up:before { content: "\f103"; }
+.gmo-icon-sprites:before { content: "\f104"; }
+.gmo-icon-rocket:before { content: "\f105"; }
+.gmo-icon-thumbs-up:before { content: "\f106"; }
+.gmo-icon-pacman:before { content: "\f107"; }
+.gmo-icon-eject:before { content: "\f108"; }
+.gmo-icon-arrow-up3:before { content: "\f109"; }
+.gmo-icon-point-up:before { content: "\f10a"; }

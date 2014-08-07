@@ -7,7 +7,7 @@ Contributors: Takeaki Nagashima
 Tags: Go top, Go to top, link, links, Click to top, Scroll to top
 Requires at least: 3.8
 Tested up to: 3.9.1 
-Stable tag: Version 1.0 
+Stable tag: Version 1.1 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

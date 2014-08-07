@@ -1,0 +1,26 @@
+{
+  "fonts": [
+    "iconvault_9a1c88afa615debc7fb4cdcba96a0dda.ttf",
+    "iconvault_9a1c88afa615debc7fb4cdcba96a0dda.woff",
+    "iconvault_9a1c88afa615debc7fb4cdcba96a0dda.eot",
+    "iconvault_9a1c88afa615debc7fb4cdcba96a0dda.svg"
+  ],
+  "templates": [
+    "iconvault-preview.html",
+    "iconvault-preview.css"
+  ],
+  "file_name": "iconvault_9a1c88afa615debc7fb4cdcba96a0dda",
+  "glyphs": [
+    "arrow-up2",
+    "smiley",
+    "airplane",
+    "arrow-up",
+    "sprites",
+    "rocket",
+    "thumbs-up",
+    "pacman",
+    "eject",
+    "arrow-up3",
+    "point-up"
+  ]
+}
