@@ -25,7 +25,12 @@ From the WordPress admin page, simply activate the plugin, or upload a file from
 
 == Changelog == 
 
--Initial Release
+= 1.1 =
+* More available icons with newly added feature which allow you to upload arbitrarily images.
+* Now the style of the icons can be set.
+
+= 1.0 =
+* Initial Release
 
 == Upgrade Notice ==
 
