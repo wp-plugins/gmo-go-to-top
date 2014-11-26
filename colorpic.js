@@ -1,5 +1,4 @@
 (function($){
-	
 	$('#color_picker').farbtastic('#img_color');
 		
 	$('ul.icon_font li').click(function () {
@@ -25,7 +24,6 @@
 */
 	function select(){
 		var selectval = $('input[name="type"]').val();
-		console.log(selectval);
 		if( selectval == 'icon_select' ){
 			$('#images_table').hide();
 			$('#icon_table').show();

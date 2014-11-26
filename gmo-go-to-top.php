@@ -3,7 +3,7 @@
 Plugin Name: GMO Go to Top
 Plugin URI: http://wpshop.com
 Description: GMO Go to Top is simple plugin and it will add a simple button which allows users to easily scroll back to the top of the page.
-Version: 1.1
+Version: 1.2
 Author: WP Shop byGMO
 Author URI: http://wpshop.com
 */
@@ -34,22 +34,22 @@ private $default_marginbottom ='30';
 	public function admin_init(){
 			if(isset($_POST['img_color'])) {
 				update_option('gmogototop[img_color]', $_POST['img_color']);
-			} else if(get_option('gmogototop[img_color]' == '')) {
+			} else if(!get_option('gmogototop[img_color]')) {
 				update_option('gmogototop[img_color]', $this->default_img_color);
-			}
+			} 
 			if(isset($_POST['icon_fontstyle'])) {
 				update_option('gmogototop[icon_fontstyle]', $_POST['icon_fontstyle']);
-			} else if(get_option('gmogototop[icon_fontstyle]' == '')) {
+			} else if(!get_option('gmogototop[icon_fontstyle]')) {
 				update_option('gmogototop[icon_fontstyle]', $this->default_icon_fontstyle);
 			}
 			if(isset($_POST['type'])) {
 				update_option('gmogototop[type]', $_POST['type']);
-			} else if(get_option('gmogototop[type]' == '')) {
+			} else if(!get_option('gmogototop[type]')) {
 				update_option('gmogototop[type]', $this->default_type);
 			}
 			if(isset($_POST['direction'])) {
 				update_option('gmogototop[direction]', $_POST['direction']);
-			} else if(get_option('gmogototop[direction]' == '')) {
+			} else if(!get_option('gmogototop[direction]')) {
 				update_option('gmogototop[direction]', $this->default_direction);
 			}
 			if(isset($_POST['uploadimg'])) {
@@ -57,17 +57,17 @@ private $default_marginbottom ='30';
 			}
 			if(isset($_POST['iconsize'])) {
 				update_option('gmogototop[iconsize]', $_POST['iconsize']);
-			} else if(get_option('gmogototop[iconsize]' == '')) {
+			} else if(!get_option('gmogototop[iconsize]')) {
 				update_option('gmogototop[iconsize]', $this->default_iconsize);
 			}
 			if(isset($_POST['marginlr'])) {
 				update_option('gmogototop[marginlr]', $_POST['marginlr']);
-			} else if(get_option('gmogototop[marginlr]' == '')) {
+			} else if(!get_option('gmogototop[marginlr]')) {
 				update_option('gmogototop[marginlr]', $this->default_marginlr);
 			}
 			if(isset($_POST['marginbottom'])) {
 				update_option('gmogototop[marginbottom]', $_POST['marginbottom']);
-			} else if(get_option('gmogototop[marginbottom]' == '')) {
+			} else if(!get_option('gmogototop[marginbottom]')) {
 				update_option('gmogototop[marginbottom]', $this->default_marginbottom);
 			}
 	}
@@ -125,8 +125,8 @@ private $default_marginbottom ='30';
 		$image_url3 = $plugin_file_url.'gmo-go-to-top/images/'.'wpshop_bnr_plugins.png';
 		wp_enqueue_media();
 		wp_enqueue_style( 'farbtastic' );
-		wp_enqueue_script('uploader',plugin_dir_url( __FILE__ ).'uploader.js');
-		wp_enqueue_script('colorpic',plugin_dir_url( __FILE__ ).'colorpic.js');	
+		wp_enqueue_script('gmo-go-to-top-uploader',plugin_dir_url( __FILE__ ).'uploader.js');
+		wp_enqueue_script('gmo-go-to-top-colorpic',plugin_dir_url( __FILE__ ).'colorpic.js');	
 		wp_enqueue_script( 'farbtastic' );
 		$icon_array = array(
 		'gmo-icon-arrow-up2',
@@ -152,7 +152,7 @@ private $default_marginbottom ='30';
 		<!-- #gmoplugLeft -->
 			<div id="gmoplugLeft">
 			<h3>settings</h3>			
-			<form action="/wp/wp-admin/options-general.php?page=go_to_top" method="post">
+			<form action="<?php echo admin_url(); ?>options-general.php?page=go_to_top" method="post">
 				<table>
 					<tr>
 						<td>Select Icon or images</td>
