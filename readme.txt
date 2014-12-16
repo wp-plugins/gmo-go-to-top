@@ -13,15 +13,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-GMO Go to Top is simple plugin and it will add a simple button which allows users to easily scroll back to the top of the page.
+This plugin let you place a link button to go back to top of the page from the bottom of the screen.  You can place a button either bottom left or right of the screen. 
 
+Even if you are at the bottom of the long single page, this button will take you all the way back to the top with a single click.  
+You can also change button color, size, position and styles or you can even use your own button to perfectly suit your website design.  
 
 == Installation ==
 
 Search and download plugin from either WordPress admin page or http://wordpress.org/plugins.  
 From the WordPress admin page, simply activate the plugin, or upload a file from "Add New" to install and activate plug-in.  
 
+Required time for installation: Approximately 20 seconds. 
+
 == Frequently Asked Questions ==
+
+How can I change button type? 
+-Delete an existing button image and create again.
+
+Can I adjust scroll speed?
+-Not at this moment.  We may consider adding this function near future.
 
 == Changelog == 
 
