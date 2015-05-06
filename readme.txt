@@ -1,5 +1,4 @@
 === Plugin Name ===
-
 Plugin Name: GMO Go to Top
 Author: GMO WP Cloud
 Author URI: https://www.wpcloud.jp/en/
@@ -7,7 +6,7 @@ Contributors: Takeaki Nagashima
 Tags: Go top, Go to top, link, links, Click to top, Scroll to top
 Requires at least: 3.8
 Tested up to: 4.1.1 
-Stable tag: Version 1.3 
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,14 +37,10 @@ Can I adjust scroll speed?
 = 1.1 =
 * More available icons with newly added feature which allow you to upload arbitrarily images.
 * Now the style of the icons can be set.
+* Updated Author Profile
 
 = 1.0 =
 * Initial Release
-
-= 1.1 =
-* Updated Author Profile
-
-== Upgrade Notice ==
 
 == Screenshots ==
 
