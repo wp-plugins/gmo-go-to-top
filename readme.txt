@@ -5,8 +5,8 @@ Author URI: https://www.wpcloud.jp/en/
 Contributors: Takeaki Nagashima
 Tags: Go top, Go to top, link, links, Click to top, Scroll to top
 Requires at least: 3.8
-Tested up to: 4.1.1 
-Stable tag: trunk
+Tested up to: 4.2 
+Stable tag: Version 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,9 @@ Can I adjust scroll speed?
 -Not at this moment.  We may consider adding this function near future.
 
 == Changelog == 
+
+= 1.3 =
+* Updated readme.txt
 
 = 1.1 =
 * More available icons with newly added feature which allow you to upload arbitrarily images.
